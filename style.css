@@ -1,0 +1,113 @@
+/*===========================================
+CODER Name- Amit Kumar 
+Github- Amit0prajapati0 
+Imstagram- amit_0_prajapati
+===========================================*/
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #5C5757;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: #5FF16A;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+input[type="date"]{
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+.result{
+    margin-top: 30px;
+}
+
+.result p{
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.whatsapp{
+    background-color: #60F976;
+}
+
+.facebook{
+    background-color: #024BE5;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+.instagram{
+    background-color: #e4405f;
+}
+
+.linkedin{
+    background-color: #0077b5;
+}
+
+.social-media a:hover{
+    opacity: 0.8;
+}
+
+.copyright p{
+  color: #000000;
+}
